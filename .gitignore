@@ -1,2 +1,5 @@
 #ignore .key files
 *.key
+
+#ignore .log files
+*.log
