@@ -1,5 +1,5 @@
-#ignore .key files
 *.key
-
-#ignore .log files
 *.log
+
+#exclude data folder
+data/
