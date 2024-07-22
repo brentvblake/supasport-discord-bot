@@ -1,0 +1,10 @@
+[2024-07-22 13:21:30] [INFO    ] discord.client: logging in using static token
+[2024-07-22 13:21:31] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 74535803a38f18418638797f08e8b1e2).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+[2024-07-22 13:24:15] [INFO    ] discord.client: logging in using static token
+[2024-07-22 13:24:15] [INFO    ] discord.client: logging in using static token
+[2024-07-22 13:24:17] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: d85e10d3c73eeabe2fca90a5470c7ba6).
+[2024-07-22 13:24:17] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: d85e10d3c73eeabe2fca90a5470c7ba6).
+[2024-07-22 13:24:19] [INFO    ] root: We have logged in as SupaSport Bot#6983
+[2024-07-22 13:25:06] [INFO    ] root: Hello command received from neonthorax
+[2024-07-22 13:28:05] [INFO    ] root: Hello command received from neonthorax
