@@ -7,3 +7,6 @@ data/
 #exclude the venv folder
 venv/
 
+#exclude any __pycache__ folder in the project even if it is nested
+**/__pycache__/
+
