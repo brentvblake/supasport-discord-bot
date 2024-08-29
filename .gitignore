@@ -3,3 +3,7 @@
 
 #exclude data folder
 data/
+
+#exclude the venv folder
+venv/
+

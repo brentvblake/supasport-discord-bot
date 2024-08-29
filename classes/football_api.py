@@ -27,8 +27,8 @@ class FootballAPI:
         #get todays date in form YYYY-MM-DD
         params = {
             'league': self.league_id,
-            # 'date': datetime.datetime.now().strftime("%Y-%m-%d"),
-            'date': '2024-08-17', #for testing
+            'date': datetime.datetime.now().strftime("%Y-%m-%d"),
+            # 'date': '2024-08-17', #for testing
             'season': self.season
         }
         print(self.api_key)
@@ -40,10 +40,10 @@ class FootballAPI:
         #get todays date in form YYYY-MM-DD
         params = {
             'league': self.league_id,
-            # 'from': datetime.datetime.now().strftime("%Y-%m-%d"),
-            # 'to': (datetime.datetime.now() + datetime.timedelta(days=6)).strftime("%Y-%m-%d"),
-            'from': '2024-08-19', #for testing
-            'to': '2024-08-25', #for testing
+            'from': datetime.datetime.now().strftime("%Y-%m-%d"),
+            'to': (datetime.datetime.now() + datetime.timedelta(days=6)).strftime("%Y-%m-%d"),
+            # 'from': '2024-08-19', #for testing
+            # 'to': '2024-08-25', #for testing
             'season': self.season
         }
         response = requests.get(self.url+'/fixtures', headers=self.headers, params=params)
@@ -53,8 +53,8 @@ class FootballAPI:
         params = {
             'league': self.league_id,
             'last': 10,
-            # 'season': self.season
-            'season': '2023'
+            'season': self.season
+            # 'season': '2023' #for testing
         }
         response = requests.get(self.url+'/fixtures', headers=self.headers, params=params)
         return response.json()

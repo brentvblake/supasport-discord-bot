@@ -1,6 +1,7 @@
 # This example requires the 'message_content' intent.
 
 import discord
+from discord.ext import tasks, commands
 import logging
 import logging.handlers
 
@@ -31,6 +32,7 @@ client = discord.Client(intents=intents)
 async def on_ready():
     logging.info(f'We have logged in as {client.user}')
     print(f'We have logged in as {client.user}')
+    # client.loop.create_task(background_task(client)) #start background task
     
 #read token from token.key file
 def read_token():
